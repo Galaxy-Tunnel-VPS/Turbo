@@ -1,0 +1,26 @@
+name = "galaxy-tunnel"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# ============================================
+# Environment Variables (Secrets should be set via dashboard or wrangler secret)
+# ============================================
+[vars]
+# PROXYIP = "cdn-b100.xn--b6gac.eu.org"
+# PROXY_LIST_URL = "https://raw.githubusercontent.com/gprox-galaxy/Gproxy-domaip/refs/heads/main/PROXYIP.txt"
+# DNS_RESOLVER_URL = "["https://dns.google/dns-query","https://dns.quad9.net/dns-query"]"
+
+# ============================================
+# Route (optional — add your custom domain here)
+# ============================================
+# [[routes]]
+# pattern = "tunnel.your-domain.com"
+# custom_domain = true
+
+# ============================================
+# D1 / KV / R2 (if needed later)
+# ============================================
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
