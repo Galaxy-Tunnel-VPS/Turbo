@@ -9,7 +9,7 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 PROXYIP = "cdn-b100.xn--b6gac.eu.org"
 PROXY_LIST_URL = "https://raw.githubusercontent.com/gprox-galaxy/Gproxy-domaip/refs/heads/main/PROXYIP.txt"
-DNS_RESOLVER_URL = "["https://dns.google/dns-query","https://dns.quad9.net/dns-query"]"
+DNS_RESOLVER_URL = ["https://dns.google/dns-query","https://dns.quad9.net/dns-query"]
 
 # ============================================
 # Route (optional — add your custom domain here)
